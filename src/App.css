@@ -441,6 +441,10 @@ body {
     overflow: hidden;
   }
 
+  .header{
+    justify-content: flex-end;
+  }
+
   .container {
     padding: 0;
   }
@@ -501,7 +505,6 @@ body {
   .experience-item {
     margin: 15px;
     display: block;
-    padding-left: 50px;
   }
 
   .experience-item_time h1 {
