@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Dodecahedron = ({ left, top, valueSize }) => {
+const Dodecahedron = ({ left, top, valueSize, visible }) => {
 
     let defaultWidth = 100;
     let defaultHeight = 223;
@@ -94,7 +94,7 @@ const Dodecahedron = ({ left, top, valueSize }) => {
     }
 
     return (
-        <div className="dodecahedron" style={style}>
+        <div className={`dodecahedron ${visible ? 'visible' : 'xs-none'}`} style={style}>
             {[...Array(12)].map((_, index) => (
                 <div key={index} className="pentagon" style={pentagonStyles[index]}>
                     {[...Array(5)].map((_, i) => (

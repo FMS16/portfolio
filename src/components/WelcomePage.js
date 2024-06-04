@@ -23,9 +23,9 @@ const WelcomePage = () => {
                     </ScrollLink>
                 </div>
             </div>
-            <Dodecahedron left={20} top={-10} valueSize={1.5} />
-            <Dodecahedron left={85} top={-5} valueSize={3} />
-            <Dodecahedron left={5} top={85} valueSize={1} />
+            <Dodecahedron left={20} top={-10} valueSize={1.5} visible={false} />
+            <Dodecahedron visible={true} left={85} top={-5} valueSize={3} />
+            <Dodecahedron visible={false} left={5} top={85} valueSize={1} />
             <ScrollDown />
         </div>
     )

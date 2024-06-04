@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.parent{
+.parent {
   position: fixed;
   top: 0;
   left: 0;
@@ -20,22 +20,22 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-.container{
+.container {
   width: 90%;
   margin: auto;
   padding: 50px;
 }
 
-.flex{
+.flex {
   display: flex;
   flex-wrap: wrap;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,20 +48,20 @@ body {
   transition: all 0.5s;
 }
 
-.scrolled{
+.scrolled {
   color: #000000 !important;
 
 }
 
-.scrolled .toggle-menu{
+.scrolled .toggle-menu {
   color: #000000 !important;
 }
 
-.header-logo{
+.header-logo {
   font-size: 30px;
 }
 
-.header .toggle-menu{
+.header .toggle-menu {
   font-size: 30px;
   border: none;
   background: none;
@@ -69,7 +69,7 @@ body {
   cursor: pointer;
 }
 
-.btn-scroll_down{
+.btn-scroll_down {
   width: 35px;
   height: 35px;
   background-color: #000000;
@@ -87,7 +87,7 @@ body {
   transition: all 0.5s;
 }
 
-.btn-scroll_down:hover{
+.btn-scroll_down:hover {
   transition: all 0.5s;
   opacity: 1;
 }
@@ -101,7 +101,7 @@ body {
   background-color: #000000;
 }
 
-.welcome-content{
+.welcome-content {
   position: absolute;
   width: 750px;
   left: 35%;
@@ -110,33 +110,35 @@ body {
   transform: translateX(-35%) translateY(-65%);
 }
 
-.welcome-content h1{
+.welcome-content h1 {
   font-size: 76px;
   color: #fff;
 }
 
-.welcome-content h2{
+.welcome-content h2 {
   font-size: 36px;
   color: #fff;
 }
 
-.welcome-content h1, .welcome-content h2, .welcome-content p{
+.welcome-content h1,
+.welcome-content h2,
+.welcome-content p {
   padding: 0;
   margin: 0;
   font-weight: 250;
   text-align: left;
 }
 
-.welcome-content p{
+.welcome-content p {
   margin-top: 50px;
   color: darkgray;
 }
 
-.welcome-btn_container{
+.welcome-btn_container {
   margin-top: 50px;
 }
 
-.welcome-btn_container button{
+.welcome-btn_container button {
   padding: 16px;
   border-radius: 25px;
   width: 200px;
@@ -149,29 +151,28 @@ body {
   transition: all 0.5s;
 }
 
-.btn-me{
+.welcome-btn_container button svg {
+  transition: all 0.5s;
+}
+
+.welcome-btn_container button:hover {
+  padding-right: 5px;
+  transition: all 0.5s;
+}
+
+.btn-experience {
   background: blueviolet;
   border: 1px solid blueviolet;
 }
 
-.welcome-btn_container button svg{
-  transition: all 0.5s;
-}
-
-.welcome-btn_container button:hover svg{
-  padding-left: 5px;
-  transition: all 0.5s;
-}
-
-.btn-experience{
-  background: blueviolet;
-  border: 1px solid blueviolet;
+.btn-experience svg {
+  margin-left: 10px;
 }
 
 
 
 
-.about-me{
+.about-me {
   padding: 25px;
   height: 100vh;
   display: flex;
@@ -179,30 +180,30 @@ body {
   justify-content: center;
 }
 
-.about-me .flex{
+.about-me .flex {
   justify-content: center;
   align-items: center;
 }
 
-.about-me_item{
+.about-me_item {
   width: 550px;
   margin: 0 50px;
 }
 
-.about-me_item h1{
+.about-me_item h1 {
   font-size: 48px;
   margin-bottom: 50px;
   font-weight: 250;
 }
 
 
-.about-me_item p{
+.about-me_item p {
   margin-bottom: 25px;
   font-size: 16px;
   color: rgb(114, 114, 114);
 }
 
-.btn-download_cv{
+.btn-download_cv {
   padding: 16px;
   border-radius: 25px;
   width: 200px;
@@ -216,20 +217,21 @@ body {
   margin-top: 25px;
   display: inline-block;
   text-align: center;
+  transition: all 0.5s;
   text-decoration: none;
 }
 
-.btn-download_cv svg{
-  transition: all 0.5s;
+.btn-download_cv svg {
+  margin-left: 10px;
 }
 
-.btn-download_cv:hover svg{
-  padding-left: 5px;
+.btn-download_cv:hover {
+  padding-right: 5px;
 }
 
 
 
-.projects{
+.projects {
   height: 100vh;
   background-color: #000000;
 }
@@ -238,56 +240,58 @@ body {
 
 
 
-.experience{
+.experience {
   background-color: #000000;
   color: darkgray;
   height: 100%;
 }
 
-.experience .flex{
+.experience .flex {
   flex-direction: column;
 }
 
-.experience-item{
+.experience-item {
   display: flex;
   margin: 25px;
 }
 
-.experience-item_time h1, .experience-item_description h1{
+.experience-item_time h1,
+.experience-item_description h1 {
   font-weight: normal;
 }
 
-.experience-item_time{
+.experience-item_time {
   margin-right: 25px;
+  width: 150px;
 }
 
-.experience-item_time h1{
+.experience-item_time h1 {
   font-size: 16px;
 }
 
-.experience-item_description h1{
+.experience-item_description h1 {
   color: #fff;
   letter-spacing: 1.5px;
   font-size: 18px;
   text-transform: uppercase;
 }
 
-.experience-ul_details{
+.experience-ul_details {
   margin: 10px 0;
   list-style-position: inside;
 }
 
-.experience-ul_details li{
+.experience-ul_details li {
   padding: 10px 0;
 }
 
-.experience-ul_skills{
+.experience-ul_skills {
   list-style: none;
   display: flex;
   margin-top: 25px;
 }
 
-.experience-ul_skills li{
+.experience-ul_skills li {
   border-radius: 25px;
   width: max-content;
   padding: 0 15px;
@@ -299,7 +303,7 @@ body {
 
 
 
-.footer{
+.footer {
   background-color: #fff;
   padding: 25px;
   display: flex;
@@ -307,26 +311,26 @@ body {
   width: 100%;
 }
 
-.footer ul{
+.footer ul {
   display: flex;
   list-style: none;
 }
 
-.footer ul li{
+.footer ul li {
   margin: 0 10px;
   color: rgb(114, 114, 114);
 }
 
-.footer ul li a{
+.footer ul li a {
   color: rgb(114, 114, 114);
   text-decoration: none;
 }
 
-.footer ul li svg{
+.footer ul li svg {
   color: #000000;
 }
 
-.footer ul li a svg{
+.footer ul li a svg {
   color: #0077B5;
 }
 
@@ -431,13 +435,104 @@ body {
 
 
 
+@media only screen and (max-width: 480px) {
+  .parent {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .header {
+    padding: 25px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .welcome-page {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .welcome-content {
+    width: 80%;
+  }
+
+  .xs-none {
+    display: none !important;
+  }
+
+  .about-me .flex {
+    flex-wrap: wrap;
+  }
+
+  .about-me_item {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-me_item img {
+    width: 100%;
+  }
+
+  .experience {
+    margin-top: 200px;
+  }
+
+  .experience .flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .experience-item_time {
+    max-width: 150px;
+  }
+
+  .experience-item_description {
+    width: 100%;
+  }
+
+  .experience-item {
+    margin: 15px;
+    display: block;
+    padding-left: 50px;
+  }
+
+  .experience-item_time h1 {
+    font-size: 14px;
+  }
+
+  .experience-item_description h1 {
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .experience-ul_skills {
+    flex-wrap: wrap;
+  }
+
+  .experience-ul_skills li {
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .footer ul{
+    flex-wrap: wrap;
+    text-align: center;
+  }
 
 
-
-
-
-
-
-
-
-
+  .footer ul li{
+    width: 100%;
+    padding:15px;
+  }
+}
