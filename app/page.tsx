@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Cards from "./components/Cards";
 import WhatIDo from "./components/WhatIDo";

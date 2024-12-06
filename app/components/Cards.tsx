@@ -4,9 +4,6 @@ import React from 'react';
 import Card from './Card';
 import Image from 'next/image';
 import arrow from "../assets/images/arrow-vector-png.webp";
-import logoFuerte from "../assets/images/logoRecortadoFino.webp";
-import logoStranza from "../assets/images/logo.png";
-import logoPwc from "../assets/images/Logo-pwc.png"
 
 import alvin from "../assets/images/alvin2.png";
 import cap from "./../assets/images/cap2.jpeg"
