@@ -3,12 +3,11 @@
 import Link from 'next/link';
 import React from 'react'
 import { useEffect, useState } from 'react';
-import { useRouter, usePathname } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 
 const Header = () => {
     const [scroll, setScroll] = useState(false);
-    const router = useRouter();
     const pathname = usePathname();
     const [active, setActive] = useState('home');
 

@@ -4,7 +4,7 @@ import React from 'react'
 const Banner = () => {
   return (
     <div className='background-works h-[100vh] flex relative justify-center items-center'>
-      <h1 className='text-9xl w-[90%] xl:w-full text-center mx-auto sf-bold max-sm:text-6xl'>What I've Built</h1>
+      <h1 className='text-9xl w-[90%] xl:w-full text-center mx-auto sf-bold max-sm:text-6xl'>What I&apos;ve Built</h1>
       <button
         onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
         className='absolute bottom-10 left-1/2 transform -translate-x-1/2 text-3xl bg-[#000] text-[#fff] rounded-full h-[50px] w-[50px] flex justify-center items-center'>
