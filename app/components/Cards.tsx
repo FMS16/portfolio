@@ -30,7 +30,7 @@ const Cards = () => {
               <div className='w-full h-[250px] relative'>
                 <Image fill src={alvin} className='object-cover object-bottom rounded-xl' alt='Alvin, my dog' />
               </div>
-              <p className='text-lg mt-4 text-center'>I love dogs! This is my dog Alvin in the summer of 2014.</p>
+              <p className='text-lg mt-4 text-center dark:text-[#000]'>I love dogs! This is my dog Alvin in the summer of 2014.</p>
             </m.div>
             <m.div
               initial="hidden"
@@ -45,7 +45,7 @@ const Cards = () => {
               <div className='w-full h-[250px] relative'>
                 <Image fill src={cap} className='object-cover object-center rounded-xl' alt='Alvin, my dog' />
               </div>
-              <p className='text-lg mt-4 text-center'>I love football! I am a huge fan of Pe&ntilde;arol</p>
+              <p className='text-lg mt-4 text-center dark:text-[#000]'>I love football! I am a huge fan of Pe&ntilde;arol</p>
             </m.div>
           </div>
         </>
@@ -65,7 +65,7 @@ const Cards = () => {
             <div className='bg-[#8798c9] p-2 rounded-t-xl'>
               <p className='font-bold tracking-wider'>2019</p>
             </div>
-            <div className='bg-[#a8b7e0] py-3 px-5 relative z-10 md:z-0 md:static text-[#000] rounded-b-xl shadow-md'>
+            <div className='bg-[#a8b7e0] dark:text-[#000] py-3 px-5 relative z-10 md:z-0 md:static text-[#000] rounded-b-xl shadow-md'>
               <p>
                 I discovered programming in high school through an Informatics class, and I immediately fell in love with HTML, CSS, and JavaScript.
                 This sparked my passion for coding and set me on the path to becoming a developer.
@@ -89,7 +89,7 @@ const Cards = () => {
             <div className='bg-[#8798c9] p-2 rounded-t-xl'>
               <p className='font-bold tracking-wider text-right'>2021</p>
             </div>
-            <div className='bg-[#a8b7e0] py-3 px-5 relative z-10 md:z-0 md:static text-[#000] rounded-b-xl shadow-md'>
+            <div className='bg-[#a8b7e0] dark:text-[#000] py-3 px-5 relative z-10 md:z-0 md:static text-[#000] rounded-b-xl shadow-md'>
               <p>
                 I completed my final year of high school while simultaneously pursuing a technical programming degree in ORT University.
                 It was a challenging journey, but it deepened my passion for programming even further.
@@ -113,7 +113,7 @@ const Cards = () => {
             <div className='bg-[#8798c9] p-2 rounded-t-xl'>
               <p className='font-bold tracking-wider'>2022</p>
             </div>
-            <div className='bg-[#a8b7e0] py-3 px-5 relative z-10 md:z-0 md:static text-[#000] rounded-b-xl shadow-md'>
+            <div className='bg-[#a8b7e0] dark:text-[#000] py-3 px-5 relative z-10 md:z-0 md:static text-[#000] rounded-b-xl shadow-md'>
               <p>
                 I landed my first job in the tech industry, and from that moment, my learning journey never stopped.
                 With the guidance of incredible mentors and involvement in impactful projects,
@@ -138,7 +138,7 @@ const Cards = () => {
             <div className='bg-[#8798c9] p-2 rounded-t-xl'>
               <p className='font-bold tracking-wider text-right'>2024</p>
             </div>
-            <div className='bg-[#a8b7e0] py-3 px-5 text-[#000] rounded-b-xl shadow-md'>
+            <div className='bg-[#a8b7e0] py-3 px-5 text-[#000] dark:text-[#000] rounded-b-xl shadow-md'>
               <p>
                 I worked on several exciting freelance projects that challenged and inspired me.
                 Currently, I am part of a new multinational company, continuing to grow and embrace new opportunities.

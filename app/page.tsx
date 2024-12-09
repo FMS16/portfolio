@@ -23,7 +23,7 @@ export default function Home() {
           <div className="container flex md:justify-between flex-col md:flex-row mx-auto relative h-full">
             <div className="lg-w-[45%] w-full px-12 md:px-0 md:justify-center md:flex-row flex items-start flex-col">
               <ul className="text-lg">
-                <li className="text-xl mb-4 text-[#8798c9] tracking-widest sf-bold">Elsewhere</li>
+                <li className="text-xl mb-4 text-[#8798c9] tracking-widest sf-bold dark:text-[#8798c9]">Elsewhere</li>
                 <li className="my-2 opacity-50 hover:opacity-100"><a href="">Linkedin</a></li>
                 <li className="my-2 opacity-50 hover:opacity-100"><a href="">Github</a></li>
                 <li className="my-2 opacity-50 hover:opacity-100"><a href="">Contact</a></li>
@@ -32,7 +32,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="w-[100%] lg:w-full mt-32 md:mt-0 flex flex-wrap justify-center">
-              <h1 className="text-xl text-[#8798c9] opacity-75 tracking-widest">© 2024 Fabricio Secondo</h1>
+              <h1 className="text-xl text-[#8798c9] opacity-75 tracking-widest dark:text-[#8798c9]">© 2024 Fabricio Secondo</h1>
             </div>
           </div>
         </div>

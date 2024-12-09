@@ -29,8 +29,8 @@ const Works = () => {
             <Image src={fuerte} fill className='object-contain p-4' alt='Logo Fuerte' />
           </div>
           <div className='bg-white  h-1/2 w-full rounded-b-lg px-7 py-12'>
-            <h1 className='text-xl sf-bold tracking-wider'>Fuerte</h1>
-            <h2 className='text-lg'>fuerte.com.uy</h2>
+            <h1 className='text-xl sf-bold tracking-wider dark:text-[#000]'>Fuerte</h1>
+            <h2 className='text-lg dark:text-[#000]'>fuerte.com.uy</h2>
           </div>
         </m.div>
         <m.div
@@ -46,8 +46,8 @@ const Works = () => {
             <Image src={covijoven} fill className='object-contain p-4' alt='Logo Fuerte' />
           </div>
           <div className='bg-white  h-1/2 w-full rounded-b-lg px-7 py-12'>
-            <h1 className='text-xl sf-bold tracking-wider'>Covijoven2</h1>
-            <h2 className='text-lg'>Coming soon</h2>
+            <h1 className='text-xl sf-bold tracking-wider dark:text-[#000]'>Covijoven2</h1>
+            <h2 className='text-lg dark:text-[#000]'>Coming soon</h2>
           </div>
         </m.div>
         <m.div
@@ -63,8 +63,8 @@ const Works = () => {
             <Image src={stranza} fill className='object-contain p-4' alt='Logo Fuerte' />
           </div>
           <div className='bg-white  h-1/2 w-full rounded-b-lg px-7 py-12'>
-            <h1 className='text-xl sf-bold tracking-wider'>Stranza</h1>
-            <h2 className='text-lg'>Coming soon</h2>
+            <h1 className='text-xl sf-bold tracking-wider dark:text-[#000]'>Stranza</h1>
+            <h2 className='text-lg dark:text-[#000]'>Coming soon</h2>
           </div>
         </m.div>
         <m.div
@@ -80,7 +80,7 @@ const Works = () => {
             <Image src={fsecondo} fill className='object-contain p-4' alt='Logo Fuerte' />
           </div>
           <div className='bg-white  h-1/2 w-full rounded-b-lg px-7 py-12'>
-            <h1 className='text-xl sf-bold tracking-wider'>fsecondo.dev</h1>
+            <h1 className='text-xl sf-bold tracking-wider dark:text-[#000]'>fsecondo.dev</h1>
           </div>
         </m.div>
       </div>
