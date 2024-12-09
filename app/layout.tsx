@@ -3,7 +3,9 @@ import Header from "./components/Header";
 import "./globals.css";
 import Transition from "./components/Transition";
 import { Limelight } from 'next/font/google';
-import { Metadata } from 'next'
+import { Metadata } from 'next';
+import Head from 'next/head';
+
 const sfBold = localFont({
   src: "./fonts/SF-Pro-Display-Bold.otf",
   variable: "--font-sf-bold",
@@ -20,9 +22,21 @@ const sf = localFont({
   weight: "100 900",
 });
 
-export const metadata:Metadata = {
+export const metadata: Metadata = {
   title: "Fabricio Secondo",
   description: "Portfolio of Fabricio Secondo, a graduated developer from Uruguay.",
+  icons: {
+    icon: "/favicon.ico", // Favicon principal
+    apple: "/apple-touch-icon.png", // Para dispositivos iOS
+    other: [
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        url: "/favicon-32x32.png",
+      },
+    ],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
