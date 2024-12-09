@@ -19,7 +19,7 @@ const Experiences = () => {
                     variants={{
                         visible: { opacity: 1, scale: 1 },
                         hidden: { opacity: 0.25, scale: 0.85 }
-                    }} className='bg-[#dfd0d0] px-7 py-12 rounded-lg'>
+                    }} className='bg-[#dfd0d0] dark:text-[#000] px-7 py-12 rounded-lg'>
                     <Image src={humana} className='object-contain' alt='Logo Humana' width={100} height={100} />
                     <h1 className='text-3xl sf-bold my-2'>Software Developer</h1>
                     <h2 className='tracking-widest mt-2 mb-4'>Nov 2023 - Present</h2>
@@ -41,7 +41,7 @@ const Experiences = () => {
                     variants={{
                         visible: { opacity: 1, scale: 1 },
                         hidden: { opacity: 0.25, scale: 0.85 }
-                    }} className='bg-[#dfd0d0] px-7 py-12 rounded-lg'>
+                    }} className='bg-[#dfd0d0] dark:text-[#000] px-7 py-12 rounded-lg'>
                     <Image src={pwc} className='object-contain' alt='Logo PwC' width={100} height={100} />
                     <h1 className='text-3xl sf-bold my-2'>Software Developer</h1>
                     <h2 className='tracking-widest mt-2 mb-4'>Aug 2022 - Nov 2023</h2>

@@ -18,7 +18,7 @@ const WhatIDo = () => {
                             variants={{
                                 visible: { opacity: 1, scale: 1 },
                                 hidden: { opacity: 0.25, scale: 0.85 }
-                            }} className='text-5xl md:text-7xl sf-bold'>I think outside the box, I create with purpose, and I develop with precision.</m.h1>
+                            }} className='text-5xl md:text-7xl sf-bold dark:text-[#000]'>I think outside the box, I create with purpose, and I develop with precision.</m.h1>
                         <m.button initial="hidden"
                         onClick={() => router.push('/works')}
                             whileInView="visible"
@@ -43,7 +43,7 @@ const WhatIDo = () => {
                             variants={{
                                 visible: { opacity: 1, scale: 1 },
                                 hidden: { opacity: 0.25, scale: 0.85 }
-                            }} className='text-5xl md:text-7xl sf-bold'>I write, sharing my perspective from time to time.</m.h1>
+                            }} className='text-5xl md:text-7xl sf-bold dark:text-[#000]'>I write, sharing my perspective from time to time.</m.h1>
                         <m.button initial="hidden"
                             whileInView="visible"
                             viewport={{ once: false, amount: 0.5 }}

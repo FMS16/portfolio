@@ -16,8 +16,8 @@ const Card: React.FC<CardProps> = ({ bg, title, titlePosition, className, childr
       className={`scroll-mt-20 flex mb-32 flex-wrap shadow-xl transition-all duration-300 ease-in-out justify-center cursor-default ${bg} ${className} rounded-3xl p-7 h-full`}
     >
       <div className={`w-full mb-12 text-${titlePosition}`}>
-        <h1 className="uppercase tracking-widest text-lg">about</h1>
-        <h1 className="text-3xl md:text-6xl limelight-regular">{title}</h1>
+        <h1 className="uppercase tracking-widest text-lg dark:text-[#000]">about</h1>
+        <h1 className="text-3xl md:text-6xl limelight-regular dark:text-[#000]">{title}</h1>
       </div>
       <>
         {children}
