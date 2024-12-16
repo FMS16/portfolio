@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   title: "Fabricio Secondo",
   description: "Portfolio of Fabricio Secondo, programmer analyst from Uruguay.",
   icons: {
-    icon: "/favicon.ico", 
-    apple: "/apple-touch-icon.png", 
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
     other: [
       {
         rel: "icon",
@@ -36,7 +36,28 @@ export const metadata: Metadata = {
       },
     ],
   },
-}
+  openGraph: {
+    title: "Fabricio Secondo Portfolio",
+    description: "Explore the portfolio of Fabricio Secondo, a skilled programmer analyst based in Uruguay.",
+    url: "https://www.fsecondo.dev", 
+    type: "website",
+    images: [
+      {
+        url: "/preview.png", 
+        width: 1200,
+        height: 630,
+        alt: "Portfolio of Fabricio Secondo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image", 
+    title: "Fabricio Secondo Portfolio",
+    description: "Explore the portfolio of Fabricio Secondo, a skilled programmer analyst based in Uruguay.",
+    images: ["/preview.png"], 
+  },
+};
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
