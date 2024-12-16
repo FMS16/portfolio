@@ -4,7 +4,6 @@ import "./globals.css";
 import Transition from "./components/Transition";
 import { Limelight } from 'next/font/google';
 import { Metadata } from 'next';
-import Head from 'next/head';
 
 const sfBold = localFont({
   src: "./fonts/SF-Pro-Display-Bold.otf",
@@ -24,10 +23,10 @@ const sf = localFont({
 
 export const metadata: Metadata = {
   title: "Fabricio Secondo",
-  description: "Portfolio of Fabricio Secondo, a graduated developer from Uruguay.",
+  description: "Portfolio of Fabricio Secondo, programmer analyst from Uruguay.",
   icons: {
-    icon: "/favicon.ico", // Favicon principal
-    apple: "/apple-touch-icon.png", // Para dispositivos iOS
+    icon: "/favicon.ico", 
+    apple: "/apple-touch-icon.png", 
     other: [
       {
         rel: "icon",
