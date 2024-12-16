@@ -4,6 +4,7 @@ import "./globals.css";
 import Transition from "./components/Transition";
 import { Limelight } from 'next/font/google';
 import { Metadata } from 'next';
+import { Analytics } from "@vercel/analytics/next";
 
 const sfBold = localFont({
   src: "./fonts/SF-Pro-Display-Bold.otf",
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Transition>
           {children}
         </Transition>
+        <Analytics />
       </body>
     </html>
   );
