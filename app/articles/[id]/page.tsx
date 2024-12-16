@@ -1,16 +1,23 @@
 import { notFound } from 'next/navigation';
-import articles from '../articles.json';
+import { use } from 'react';
+import articles from './../articles.json';
 
-export default function ArticlePage({ params }: { params: { id: string } }) {
-  const { id } = params;
+interface Article {
+  id: number;
+  title: string;
+  content: string;
+}
 
-  // Buscar el artículo
-  const article = articles.find((article) => article.id === Number(id));
+export default function ArticlePage({ params }: { params: Promise<{ id: string }> }) {
+  // Usar `use` para resolver la promesa de params
+  const { id } = use(params);
 
-  // Si no se encuentra el artículo, llamar a notFound
+  // Buscar el artículo en el JSON
+  const article = articles.find((article: Article) => article.id === Number(id));
+
   if (!article) {
     notFound();
-    return null;
+    return null; // Evitar seguir ejecutando
   }
 
   return (
