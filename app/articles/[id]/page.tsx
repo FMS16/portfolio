@@ -1,26 +1,22 @@
 import { notFound } from 'next/navigation';
 import articles from '../articles.json';
 
-type Params = {
-  id: string;
-};
-
-interface ArticlePageProps {
-  params: Params; 
-}
-
-export default function ArticlePage({ params }: ArticlePageProps) {
+export default function ArticlePage({ params }: { params: { id: string } }) {
   const { id } = params;
 
-  const article = articles.find((article) => article.id === parseInt(id, 10));
-    if(!article){
-        notFound();
-    }
+  // Buscar el artículo
+  const article = articles.find((article) => article.id === Number(id));
+
+  // Si no se encuentra el artículo, llamar a notFound
+  if (!article) {
+    notFound();
+    return null;
+  }
+
   return (
-    <>
-        <div>
-            
-        </div>
-    </>
+    <div>
+      <h1>{article.title}</h1>
+      <p>{article.content}</p>
+    </div>
   );
 }
