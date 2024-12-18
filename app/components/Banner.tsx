@@ -5,7 +5,7 @@ const Banner = () => {
         <div className='w-full h-[100vh] relative z-1 flex justify-center items-center'>
             <div>
                 <h1 className='text-9xl w-[90%] dark:text-[#000] xl:w-full xl:text-left text-center mx-auto sf-bold max-sm:text-6xl'>
-                    Hi. I&apos;am Fabricio.
+                    Hi. I am Fabricio.
                 </h1>
                 <h1 className='text-9xl w-[90%] dark:text-[#000] text-center mx-auto sf-bold max-sm:text-6xl max-md:text-7xl'>A Developer.</h1>
                 <h2 className='text-xl w-[90%] mx-auto xl:w-full text-center dark:text-[#000] opacity-50 my-24 relative cursor-default'>Lover of programming, always striving to learn, grow, and innovate</h2>
